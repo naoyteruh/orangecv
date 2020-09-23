@@ -3,6 +3,10 @@
     <meta charset="utf-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/boosted@4.5.2/dist/css/boosted.min.css" 
+        integrity="sha384-j8BgukP8/Cao3CDMrwvCOSDGFQr7Yr3LGW9PUWByAoJuSwmgppSVBjC8rOSubbeC" 
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -26,6 +30,22 @@
                     <p><a href="mailto:yoan.huret@orange.com">yoan.huret@orange.com</a></p>
                     <p><a href="#">Profil plazza</a></p>
                     <p><a href="https://github.com/naoyteruh/">Github</a></p>
+                </div>
+            </div>
+            <div id="etudes" class="left-column-block">
+                <h3>Etudes</h3>
+                <div class="left-column-block-background"></div>      
+                <div class="left-column-block-content">
+                    <p>2007: Diplomé ingénieur généraliste (ENSIAME)</p>
+                    <p>2002: Baccalauréat S option sciences de l’ingénieur</p>
+                </div>
+            </div>
+            <div id="langues" class="left-column-block">
+                <h3>Langues</h3>
+                <div class="left-column-block-background"></div>      
+                <div class="left-column-block-content">
+                    <p>Anglais: lu, parlé, écrit (TOEIC 880)</p>
+                    <p>Allemand: scolaire</p>
                 </div>
             </div>
             <div id="technos" class="left-column-block">
@@ -60,8 +80,8 @@
             </div>
         </div>        
         <div id="right-column" class="column">
-            <div id="experiences">
-                <h2>Experience</h2> 
+            <div id="experiences" class="right-column-section">
+                <h2>Experiences</h2> 
                 <div class="right-column-block">
                     <div class="chronology-bar">
                         <p class="chronology-bar-start">2017</p>
@@ -114,31 +134,7 @@
                             </ul>
                         </div>        
                     </div>                               
-                </div>
-                <div class="right-column-block">
-                    <div class="chronology-bar">
-                        <p class="chronology-bar-start"></p>
-                        <p class="chronology-bar-end">2011</p>
-                    </div>
-                    <div class="right-column-block-content">
-                        <div class="experience-title">
-                            <p class="experience-place">Rennes Métropole</p>
-                            <p class="experience-project">Data en accès libre</p>
-                            <p class="experience-function">Co-developpeur</p>
-                        </div>
-                        <p>Concours de création d'applications sur la base de données de Rennes Métropole en accès libre.</p> 
-                        <p>Développement en duo d’un site communautaire d'organisation de rencontres sportives dans la ville (envioo.fr).</p>   
-                        <p>Pilotage d'une TMA de 8 personnes</p>                        
-                        <p>Conception du socle de données et logiciel</p>
-                        <p>Développement de l’application</p>
-                        <p>Tests et déploiement</p>
-                        <ul>
-                            <li><i>Langages: </i> Python</li>
-                            <li><i>Bases: </i> SQLite</li>
-                            <li><i>Framework: </i> Django</li>
-                        </ul>                           
-                    </div>                               
-                </div>
+                </div>               
                 <div class="right-column-block">
                     <div class="chronology-bar">
                         <p class="chronology-bar-start">2007</p>
@@ -162,42 +158,48 @@
                     </div>                               
                 </div>
             </div>
-            <div id="formations" class="right-column-block">
-                <h2>Formations</h2>
-                <div>
-                    <p>2019: Docker Kubernetes (Zenika/3j)</p>
-                    <p>2016: Angular avancé (Zenika/3j)</p>
-                    <p>2011: Certification developpement mobile (FITEC/3sem)</p>
-                    <p>2007: Formation Apache (Orsys/3j)</p>
-                </div>
-            </div>
-            <div id="studies"> 
-                <h2>Etudes</h2>                
+            <div id="formations" class="right-column-section">
                 <div class="right-column-block">
-                    <div class="chronology-bar">
-                        <p class="chronology-bar-start">2002</p>
-                        <p class="chronology-bar-end">2007</p>
-                    </div>     
                     <div class="right-column-block-content">
-                        Ingénieur de l’Ecole Nationale Supérieure d’Ingénieurs en Informatique, Automatique, Mécanique, Energétique et
-Electronique (ENSIAME).
+                        <h2>Formations</h2>
+                        <div>
+                            <p>2019: Docker Kubernetes (Zenika/3j)</p>
+                            <p>2016: Angular avancé (Zenika/3j)</p>
+                            <p>2011: Certification developpement mobile (FITEC/3sem)</p>
+                            <p>2007: Formation Apache (Orsys/3j)</p>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div id="projets_persos" class="right-column-section"> 
+                <h2>Projets</h2>                
                 <div class="right-column-block">
                     <div class="chronology-bar">
-                        <p class="chronology-bar-start">1999</p>
-                        <p class="chronology-bar-end">2002</p>
-                    </div>     
+                        <p class="chronology-bar-start"></p>
+                        <p class="chronology-bar-end">2011</p>
+                    </div>
                     <div class="right-column-block-content">
-                        Baccalauréat S option Sciences de l’Ingénieur au Lycée Ernest Couteaux de St Amand-les-Eaux.
-                    </div>     
-                </div>  
+                        <div class="experience-title">
+                            <p class="experience-place">Rennes Métropole</p>
+                            <p class="experience-project">Data en accès libre</p>
+                            <p class="experience-function">Co-developpeur</p>
+                        </div>
+                        <p><b>Concours</b> de création d'applications sur la base de données de Rennes Métropole en accès libre.</p> 
+                        <p>Développement en duo d’un <b>site communautaire</b> d'organisation de rencontres sportives dans la ville (envioo.fr).</p>   
+                        <ul>
+                            <li><i>Langages: </i> Python</li>
+                            <li><i>Bases: </i> SQLite</li>
+                            <li><i>Framework: </i> Django, Api Google Map</li>
+                        </ul>                           
+                    </div>                               
+                </div>
             </div>
         </div>
     </section>
 
     <footer>
-        CV réalisé en HTML5/CSS3 pour la candidature Orange Expert 2020.
-        Déployé sur Google App Engine à l'adresse <a href="https://orangecv.ew.r.appspot.com/">https://orangecv.ew.r.appspot.com/</a>.
+        <p>CV réalisé en <b>HTML5/CSS3</b> pour la candidature <b>Orange Expert 2020</b>.</p>
+        <p>Dispo sous <b>Github</b> à l'adresse <a href="https://github.com/naoyteruh/orangecv">https://github.com/naoyteruh/orangecv</a></p>
+        <p>Déployé sur <b>Google App Engine</b> à l'adresse <a href="https://orangecv.ew.r.appspot.com">https://orangecv.ew.r.appspot.com</a></p>
     </footer>
 </body>
