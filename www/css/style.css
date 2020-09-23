@@ -29,7 +29,7 @@ p {
 
 header {
     /* background-color: #FF7900; */
-    background-image: url(../img/background.svg);
+    background-image: url(../images/background.svg);
     /* padding: 30px 25px 25px 25px;  */
     text-align: right;
     overflow: hidden;
@@ -82,7 +82,7 @@ header {
     height: 100%;
     left: 0px;
     top: 0px;
-    background-image:  url(../img/background.svg);
+    background-image:  url(../images/background.svg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -112,7 +112,7 @@ header {
     height: 100%;
     left: 0px;
     top: 0px;
-    background-image:  url(../img/background.svg);
+    background-image:  url(../images/background.svg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -138,7 +138,7 @@ header {
     padding: 10px 20px;
     /* background-color: #FF7900; */
     background-color: rgba(249, 202, 80, 1);
-    /* background-image:  url(../img/background.svg); */
+    /* background-image:  url(../images/background.svg); */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -183,7 +183,7 @@ header {
 }
 footer {
     /* background-color: rgba(249, 202, 80, 1); */
-    background-image: url(../img/background.svg);
+    background-image: url(../images/background.svg);
     font-size: .9em;
     color: white;
     text-align: center;
