@@ -8,15 +8,6 @@ body {
     margin: auto;
     font-size: .9em;
 }
-@media print { 
-    body {
-        width: 95%;
-    } 
-    * {
-        -webkit-print-color-adjust: exact !important; /*Chrome, Safari */
-        color-adjust: exact !important;  /*Firefox*/
-    }          
-  }
 header, section {
     margin-bottom: 40px;
 }
@@ -24,7 +15,6 @@ header, section {
 a {
     color: black;
 }
-
 header {
     background-image: url(../images/background.svg);
     text-align: right;
@@ -33,7 +23,6 @@ header {
 }
 #top-name {
     float: left;
-    /* background-color: #FF7900; */    
     background-color: rgba(249, 202, 80, 1);
     border-radius: 0px 20px 20px 0px;
     padding: 20px 25px 15px 25px; 
@@ -59,8 +48,8 @@ header {
 }
 
 #left-column {
-    width: 25%;
-    padding-right: 1%;
+    width: 30%;
+    padding-right: 5%;
     font-size: 0.8em;
 }
 
@@ -80,6 +69,8 @@ header {
 #contact {
     text-align: center;
     font-size: 1.2em;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .left-column-block-background {
@@ -89,7 +80,7 @@ header {
     height: 100%;
     left: 0px;
     top: 0px;
-    background-image:  linear-gradient(to right, transparent, white), url(../images/background.svg);
+    background-image:  url(../images/background.svg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -98,21 +89,18 @@ header {
 .left-column-block-content {
     padding: 5px;
 }
-
 .left-column-block p {
     margin: 5px;
 }
-
 #right-column {
-    width: 75%;   
+    width: 70%;   
     font-size: 0.9em; 
 }
 #right-column h2 {
     font-weight: 300;
     margin-bottom: 0.7em;
-    font-size: 1.3em;
+    font-size: 1.6em;
 }
-
 .chronology-bar {
     position: absolute;
     width:10px;
@@ -151,13 +139,13 @@ header {
 }
 #formations h2 {
     font-weight: 800;
-    /* color: white; */
 }
 .right-column-section {
     margin-bottom: 20px;
 }
 .right-column-block {
     position: relative;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 .right-column-block-content {
@@ -200,6 +188,7 @@ header {
 .experience-function {
     font-weight: 700;
     margin: 10px 0px 5px 0px;
+    font-size: .9rem;
 }
 footer {
     background-image: url(../images/background.svg);
@@ -208,7 +197,49 @@ footer {
     text-align: center;
     padding: 30px;
 }
-
 footer p {
     margin: 10px auto;
+}
+
+@media print { 
+    @page { 
+        margin: 2cm 3cm 2cm 3cm; 
+    }
+    * {
+        -webkit-print-color-adjust: exact !important; /*Chrome, Safari */
+        color-adjust: exact !important;  /*Firefox*/
+    }          
+    body {
+        font-size: 1em;
+    }
+    header {
+        font-size: 1.7em;
+    }
+    #left-column {
+        font-size: 1.2em;
+    }
+    .left-column-block h3 {
+        font-size: 1.4em;
+    }
+    #contact {
+        font-size: 1.1em;
+    }
+    #right-column {
+        font-size: 1.3em; 
+    }
+    #right-column h2 {
+        font-size: 1.7em;
+    }
+    .experience-place {
+        font-size: 1.5rem;
+    }
+    .experience-project {
+        font-size: 1.4rem;
+    }
+    .experience-function {
+        font-size: 1.4rem;
+    }
+    footer {
+        font-size: 1.2em;
+    }
 }
