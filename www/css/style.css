@@ -22,7 +22,6 @@ header, section {
 }
 
 a {
-    text-decoration: none;
     color: black;
 }
 
@@ -60,7 +59,8 @@ header {
 }
 
 #left-column {
-    width: 33%;
+    width: 25%;
+    padding-right: 1%;
     font-size: 0.8em;
 }
 
@@ -73,14 +73,23 @@ header {
     font-size: 1.4em;
     margin-bottom: 3px;
 }
+.left-column-block img {
+    display: block;
+    margin: 0 auto;
+}
+#contact {
+    text-align: center;
+    font-size: 1.2em;
+}
 
 .left-column-block-background {
     position: absolute;
-    width:33%;
+    width:100%;
+    padding-right: 10px;
     height: 100%;
     left: 0px;
     top: 0px;
-    background-image:  url(../images/background.svg);
+    background-image:  linear-gradient(to right, transparent, white), url(../images/background.svg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -95,7 +104,7 @@ header {
 }
 
 #right-column {
-    width: 66%;   
+    width: 75%;   
     font-size: 0.9em; 
 }
 #right-column h2 {
